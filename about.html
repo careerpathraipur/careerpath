@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about CareerPathRaipur, a new blue-collar recruitment consultancy based in Raipur, Chhattisgarh.">
+  <meta name="theme-color" content="#102b50">
+  <title>About Us | CareerPathRaipur</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="CareerPathRaipur home">
+      <span class="brand-mark" aria-hidden="true">CP</span>
+      <span><span class="brand-name">CareerPathRaipur</span><span class="brand-sub">RECRUITMENT &amp; CAREER SERVICES</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu ☰</button>
+    <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+<a href="about.html" aria-current="page">About Us</a>
+<a href="services.html">Services</a>
+<a href="job-seekers.html">Job Seekers</a>
+<a href="employers.html">Employers</a>
+<a href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Contact Us</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="eyebrow">Who we are</div><h1>About CareerPathRaipur</h1><p>A Raipur-based recruitment consultancy focused on connecting employers with potential workers and helping job seekers explore opportunities.</p></div></section>
+<section class="section"><div class="container prose">
+  <h2>Our purpose</h2>
+  <p>CareerPathRaipur is being established to make it easier for businesses to communicate their workforce requirements and for job seekers to express interest in suitable employment opportunities.</p>
+  <p>Our focus is blue-collar recruitment across Raipur and other locations in Chhattisgarh. We aim to understand each requirement clearly and consider candidates based on the role, skills, experience and location involved.</p>
+  <h2>Our mission</h2>
+  <p>To make recruitment more accessible and organised by bringing employers and job seekers closer together.</p>
+  <h2>Our approach</h2>
+  <ul class="check-list"><li>Listen carefully to employer requirements.</li><li>Understand candidate skills, experience and work preferences.</li><li>Communicate relevant job details as clearly as possible.</li><li>Treat candidates and employers respectfully and handle shared information responsibly.</li></ul>
+  <div class="info-panel"><h3>Building connections, one requirement at a time</h3><p>CareerPathRaipur is a newly established consultancy. We do not claim a track record, client list or placement guarantee. Our aim is to build trust through clear communication and practical recruitment support.</p></div>
+</div></section>
+<section class="section section-soft"><div class="container"><div class="cta-band"><div><h2>Let’s discuss your requirement</h2><p>We welcome enquiries from employers and job seekers across Chhattisgarh.</p></div><a class="btn btn-light" href="contact.html">Contact Us →</a></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">CP</span>
+          <span><span class="brand-name">CareerPathRaipur</span><span class="brand-sub">RECRUITMENT &amp; CAREER SERVICES</span></span>
+        </a>
+        <p>Connecting employers with potential workers and helping job seekers explore opportunities across Chhattisgarh.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <div class="footer-links">
+          <a href="about.html">About Us</a><a href="services.html">Our Services</a>
+          <a href="job-seekers.html">For Job Seekers</a><a href="employers.html">For Employers</a>
+        </div>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <div class="footer-links">
+          <a href="mailto:careerpathraipur@gmail.com">careerpathraipur@gmail.com</a>
+          <span>Raipur, Chhattisgarh, India</span><span>Serving Chhattisgarh</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© <span id="year">2026</span> CareerPathRaipur. All rights reserved.</span>
+      <span>Connecting People with Opportunities.</span>
+    </div>
+  </div>
+</footer>
+<script>
+  const menuButton = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#primary-nav');
+  if (menuButton && nav) {
+    menuButton.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.textContent = open ? 'Close ×' : 'Menu ☰';
+    });
+  }
+  const year = document.querySelector('#year');
+  if (year) year.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

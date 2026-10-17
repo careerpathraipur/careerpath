@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blue-collar recruitment support, candidate sourcing and hiring requirement coordination in Chhattisgarh.">
+  <meta name="theme-color" content="#102b50">
+  <title>Services | CareerPathRaipur</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="CareerPathRaipur home">
+      <span class="brand-mark" aria-hidden="true">CP</span>
+      <span><span class="brand-name">CareerPathRaipur</span><span class="brand-sub">RECRUITMENT &amp; CAREER SERVICES</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu ☰</button>
+    <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html" aria-current="page">Services</a>
+<a href="job-seekers.html">Job Seekers</a>
+<a href="employers.html">Employers</a>
+<a href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Contact Us</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="eyebrow">What we do</div><h1>Recruitment Services</h1><p>Practical recruitment support for businesses seeking blue-collar workers across Raipur and Chhattisgarh.</p></div></section>
+<section class="section"><div class="container">
+  <div class="grid-2">
+    <article class="card"><div class="icon-box" aria-hidden="true">01</div><h3>Blue-Collar Recruitment</h3><p>Support for businesses looking to fill operational, field, support and other non-office roles, subject to actual hiring requirements.</p></article>
+    <article class="card"><div class="icon-box" aria-hidden="true">02</div><h3>Candidate Sourcing</h3><p>We seek to identify potential candidates based on the role, required skills, experience and job location specified by the employer.</p></article>
+    <article class="card"><div class="icon-box" aria-hidden="true">03</div><h3>Hiring Requirement Coordination</h3><p>We encourage employers to share clear details about vacancies, pay, work conditions and expected joining dates.</p></article>
+    <article class="card"><div class="icon-box" aria-hidden="true">04</div><h3>Candidate Matching</h3><p>We aim to connect candidates with relevant openings where their profile appears to match the employer’s stated requirements.</p></article>
+  </div>
+</div></section>
+<section class="section section-soft"><div class="container">
+  <div class="section-head"><h2>Example job categories</h2><p>These categories illustrate our intended focus; they are not current vacancies or a promise that every role is available.</p></div>
+  <div class="grid-3">
+    <article class="card"><h3>Operations &amp; Warehousing</h3><p>Helpers, packers, warehouse assistants and general workers.</p></article>
+    <article class="card"><h3>Logistics &amp; Field Work</h3><p>Delivery workers, drivers and other field-support roles.</p></article>
+    <article class="card"><h3>Facilities &amp; Production</h3><p>Housekeeping, facility support, retail support and production workers.</p></article>
+  </div>
+</div></section>
+<section class="section"><div class="container"><div class="cta-band"><div><h2>Need workers for your business?</h2><p>Send us the details of your requirement by email.</p></div><a class="btn btn-light" href="employers.html">Employer Enquiries →</a></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">CP</span>
+          <span><span class="brand-name">CareerPathRaipur</span><span class="brand-sub">RECRUITMENT &amp; CAREER SERVICES</span></span>
+        </a>
+        <p>Connecting employers with potential workers and helping job seekers explore opportunities across Chhattisgarh.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <div class="footer-links">
+          <a href="about.html">About Us</a><a href="services.html">Our Services</a>
+          <a href="job-seekers.html">For Job Seekers</a><a href="employers.html">For Employers</a>
+        </div>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <div class="footer-links">
+          <a href="mailto:careerpathraipur@gmail.com">careerpathraipur@gmail.com</a>
+          <span>Raipur, Chhattisgarh, India</span><span>Serving Chhattisgarh</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© <span id="year">2026</span> CareerPathRaipur. All rights reserved.</span>
+      <span>Connecting People with Opportunities.</span>
+    </div>
+  </div>
+</footer>
+<script>
+  const menuButton = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#primary-nav');
+  if (menuButton && nav) {
+    menuButton.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.textContent = open ? 'Close ×' : 'Menu ☰';
+    });
+  }
+  const year = document.querySelector('#year');
+  if (year) year.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
