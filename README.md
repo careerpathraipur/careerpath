@@ -1,2 +1,2 @@
 # careerpath
-CareerPathRaipur website
+Career Path Job Consultant website
