@@ -1,9 +1,9 @@
-CAREERPATHRAIPUR — STATIC HTML WEBSITE
+Career Path Job Consultant — STATIC HTML WEBSITE
 ======================================
 
 CONTENTS
 - index.html          Home
-- about.html          About CareerPathRaipur
+- about.html          About Career Path Job Consultant
 - services.html       Recruitment services
 - job-seekers.html    Candidate information
 - employers.html      Employer information
@@ -30,3 +30,9 @@ IMPORTANT
 - No actual job vacancies, client logos, testimonials, phone number or placement statistics have been invented.
 - The website does not collect or store candidate information. Email buttons open an email composer.
 - The website makes no guarantee of an interview or employment.
+
+BUSINESS DETAILS
+Business descriptor: Career Path Job Consultant
+Address: GT Complex, First Floor, Office No. 03, Khamatarai, Raipur, Chhattisgarh
+Phone: 9111368094
+Email: careerpathraipur@gmail.com
